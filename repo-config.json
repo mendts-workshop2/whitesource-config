@@ -29,6 +29,9 @@
     "workflowRules": {
       "enabled": true,
       "minVulnerabilitySeverity": "HIGH"
-    }
+    },
+    "extends": [
+      "github>whitesource/merge-confidence:beta",
+    ]
   }
 }
